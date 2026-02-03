@@ -14,7 +14,7 @@ import { Footer } from "@/sections/Footer";
 
 export const App = () => {
   return (
-    <body className="text-black text-base not-italic normal-nums font-normal accent-auto bg-black box-border caret-transparent block tracking-[normal] leading-[28.8px] list-outside list-disc break-words pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-urbanist">
+    <div className="text-black text-base not-italic normal-nums font-normal accent-auto bg-black box-border caret-transparent block tracking-[normal] leading-[28.8px] list-outside list-disc break-words pointer-events-auto text-start indent-[0px] normal-case visible border-separate font-urbanist">
       <div className="absolute block h-0 leading-[normal] origin-[0px_0px] w-0 left-0 right-[375px] top-0 bottom-[1000px] font-times_new_roman md:right-[1280px]">
         <div className="box-border"></div>
       </div>
@@ -77,6 +77,6 @@ export const App = () => {
         role="button"
         className="fixed bg-blue-600 box-border caret-transparent hidden leading-4 break-words z-[2147483647] rounded-[50%] left-5 bottom-5"
       ></div>
-    </body>
+    </div>
   );
 };
